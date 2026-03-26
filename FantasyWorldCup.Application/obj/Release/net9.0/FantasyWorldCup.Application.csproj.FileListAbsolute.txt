@@ -1,0 +1,15 @@
+C:\Users\carol\source\repos\src\FantasyWorldCup.Application\bin\Release\net9.0\FantasyWorldCup.Application.deps.json
+C:\Users\carol\source\repos\src\FantasyWorldCup.Application\bin\Release\net9.0\FantasyWorldCup.Application.dll
+C:\Users\carol\source\repos\src\FantasyWorldCup.Application\bin\Release\net9.0\FantasyWorldCup.Application.pdb
+C:\Users\carol\source\repos\src\FantasyWorldCup.Application\bin\Release\net9.0\FantasyWorldCup.Domain.dll
+C:\Users\carol\source\repos\src\FantasyWorldCup.Application\bin\Release\net9.0\FantasyWorldCup.Domain.pdb
+C:\Users\carol\source\repos\src\FantasyWorldCup.Application\obj\Release\net9.0\FantasyWorldCup.Application.csproj.AssemblyReference.cache
+C:\Users\carol\source\repos\src\FantasyWorldCup.Application\obj\Release\net9.0\FantasyWorldCup.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\carol\source\repos\src\FantasyWorldCup.Application\obj\Release\net9.0\FantasyWorldCup.Application.AssemblyInfoInputs.cache
+C:\Users\carol\source\repos\src\FantasyWorldCup.Application\obj\Release\net9.0\FantasyWorldCup.Application.AssemblyInfo.cs
+C:\Users\carol\source\repos\src\FantasyWorldCup.Application\obj\Release\net9.0\FantasyWorldCup.Application.csproj.CoreCompileInputs.cache
+C:\Users\carol\source\repos\src\FantasyWorldCup.Application\obj\Release\net9.0\FantasyW.31352000.Up2Date
+C:\Users\carol\source\repos\src\FantasyWorldCup.Application\obj\Release\net9.0\FantasyWorldCup.Application.dll
+C:\Users\carol\source\repos\src\FantasyWorldCup.Application\obj\Release\net9.0\refint\FantasyWorldCup.Application.dll
+C:\Users\carol\source\repos\src\FantasyWorldCup.Application\obj\Release\net9.0\FantasyWorldCup.Application.pdb
+C:\Users\carol\source\repos\src\FantasyWorldCup.Application\obj\Release\net9.0\ref\FantasyWorldCup.Application.dll

@@ -1,0 +1,11 @@
+C:\Users\carol\source\repos\src\FantasyWorldCup.Domain\bin\Release\net9.0\FantasyWorldCup.Domain.deps.json
+C:\Users\carol\source\repos\src\FantasyWorldCup.Domain\bin\Release\net9.0\FantasyWorldCup.Domain.dll
+C:\Users\carol\source\repos\src\FantasyWorldCup.Domain\bin\Release\net9.0\FantasyWorldCup.Domain.pdb
+C:\Users\carol\source\repos\src\FantasyWorldCup.Domain\obj\Release\net9.0\FantasyWorldCup.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\carol\source\repos\src\FantasyWorldCup.Domain\obj\Release\net9.0\FantasyWorldCup.Domain.AssemblyInfoInputs.cache
+C:\Users\carol\source\repos\src\FantasyWorldCup.Domain\obj\Release\net9.0\FantasyWorldCup.Domain.AssemblyInfo.cs
+C:\Users\carol\source\repos\src\FantasyWorldCup.Domain\obj\Release\net9.0\FantasyWorldCup.Domain.csproj.CoreCompileInputs.cache
+C:\Users\carol\source\repos\src\FantasyWorldCup.Domain\obj\Release\net9.0\FantasyWorldCup.Domain.dll
+C:\Users\carol\source\repos\src\FantasyWorldCup.Domain\obj\Release\net9.0\refint\FantasyWorldCup.Domain.dll
+C:\Users\carol\source\repos\src\FantasyWorldCup.Domain\obj\Release\net9.0\FantasyWorldCup.Domain.pdb
+C:\Users\carol\source\repos\src\FantasyWorldCup.Domain\obj\Release\net9.0\ref\FantasyWorldCup.Domain.dll
