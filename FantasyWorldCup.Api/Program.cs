@@ -68,16 +68,12 @@ builder.Services.AddControllers()
     });
 builder.Services.AddCors(options =>
 {
-    options.AddPolicy("AllowReact",
-        policy =>
-        {
-            policy.WithOrigins(
-                "http://localhost:3000",
-                "https://mundial2026front.onrender.com"
-            )
-            .AllowAnyHeader()
-            .AllowAnyMethod();
-        });
+    options.AddPolicy("AllowReact", policy =>
+    {
+        policy.AllowAnyOrigin()
+              .AllowAnyHeader()
+              .AllowAnyMethod();
+    });
 });
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(options =>
