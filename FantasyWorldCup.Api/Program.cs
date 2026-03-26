@@ -73,7 +73,7 @@ builder.Services.AddCors(options =>
         {
             policy.WithOrigins(
                 "http://localhost:3000",
-                "https://mciacupfront.onrender.com"
+                "https://mundial2026front.onrender.com"
             )
             .AllowAnyHeader()
             .AllowAnyMethod();
