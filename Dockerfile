@@ -1,20 +1,28 @@
-# Usar la imagen oficial de .NET 8 SDK para build
-FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
+# Etapa de construcción
+FROM mcr.microsoft.com/dotnet/sdk:7.0 AS build
 WORKDIR /app
 
-# Copiar todos los proyectos y restaurar paquetes
-COPY . ./
-RUN dotnet restore
+# Copiar archivos del proyecto API
+COPY FantasyWorldCup.Api/*.csproj ./FantasyWorldCup.Api/
+COPY FantasyWorldCup.Application/*.csproj ./FantasyWorldCup.Application/
+COPY FantasyWorldCup.Domain/*.csproj ./FantasyWorldCup.Domain/
+COPY FantasyWorldCup.Infrastructure/*.csproj ./FantasyWorldCup.Infrastructure/
 
-# Publicar el proyecto LibrarySearch.Web en Release
-RUN dotnet publish LibrarySearch.Web -c Release -o /app/out
+# Restaurar paquetes del proyecto API
+RUN dotnet restore FantasyWorldCup.Api/FantasyWorldCup.Api.csproj
 
-# Imagen final para correr la app
-FROM mcr.microsoft.com/dotnet/aspnet:8.0
+# Copiar todo el código
+COPY . .
+
+# Publicar el proyecto API
+RUN dotnet publish FantasyWorldCup.Api/FantasyWorldCup.Api.csproj -c Release -o /app/publish
+
+# Etapa de producción
+FROM mcr.microsoft.com/dotnet/aspnet:7.0
 WORKDIR /app
-COPY --from=build /app/out .
-ENV ASPNETCORE_URLS=http://+:5000
-EXPOSE 5000
 
-# Comando para ejecutar la app
-ENTRYPOINT ["dotnet", "LibrarySearch.Web.dll"]
+# Copiar los archivos publicados desde la etapa de build
+COPY --from=build /app/publish .
+
+# Ejecutar la aplicación
+ENTRYPOINT ["dotnet", "FantasyWorldCup.Api.dll"]
